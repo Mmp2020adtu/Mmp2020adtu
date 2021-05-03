@@ -1,0 +1,16 @@
+#teager energy operator
+
+dr=librosa.get_duration(filename='*.wav')
+ldr=dr-1
+for i in range(2):(ldr)
+    
+    x(i) = sr(i) ^2 - sr(i-1) * sr(i+1)
+end
+TE=x(i)
+print("teager energy operator",TE)
+
+where i used dr as length of the wave file and sr is the main sourche file 
+After using for loop the below mentioned error message is showing and i m confused what to do if anyone can help plz suggest.
+  
+ File "<ipython-input-1-d2e8e097136f>", line 148
+    x(i) = sr(i) ^2 - sr(i-1) * sr(i+1)
